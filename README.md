@@ -48,3 +48,6 @@ No Vivado GUI files are committed
 Generated outputs are disposable
 
 If the repository is cloned on a new machine, the project should be rebuildable without manual GUI interaction for version control
+=== 
+# FPGA_projects
+Accumulated projects for FPGA design 
