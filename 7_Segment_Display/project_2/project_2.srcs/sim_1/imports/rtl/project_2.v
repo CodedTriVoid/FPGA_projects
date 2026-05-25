@@ -20,7 +20,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module project_2(
+module segment_display(
     input [3:0]v,
     output z,
  //   output wire [3:0]m,

@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef" \
+"../../../../project_2.srcs/sim_1/imports/rtl/bcdto7segment_dataflow.v" \
+"../../../../project_2.srcs/sim_1/imports/rtl/comparator_dataflow.v" \
+"../../../../project_2.srcs/sim_1/imports/rtl/dataflow_seg.v" \
+"../../../../project_2.srcs/sim_1/imports/rtl/mux_2to1.v" \
+"../../../../project_2.srcs/sim_1/imports/rtl/segment_display.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
